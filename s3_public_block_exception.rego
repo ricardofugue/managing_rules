@@ -1,3 +1,7 @@
+package rules.s3_public_block_exception
+
+import data.fugue
+
 __rego__metadoc__ := {
   "title": "S3 Block Public Access",
   "description": "Block Public Access must be on unless in an exception list",
